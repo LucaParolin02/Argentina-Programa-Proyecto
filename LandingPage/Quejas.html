@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Quejas</title>
+  <link rel="stylesheet" href="2style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+  <script src="second.js"></script>
+  <link rel="shortcut icon" href="img/icono.png" />
+</head>
+
+<body>
+  <div id="quejas">
+    <h2>Formulario de Quejas</h2>
+    <form class="form">
+    <p for="name">Nombre:</p>
+    <input type="text" id="name" name="name" required><br>
+    <p for="email" class="label-form">Correo electrónico:</p>
+    <input type="email" id="email" name="email" required><br>
+    <p for="queja">Queja:</p>
+    <textarea id="queja" name="queja" required></textarea><br>
+    <button type="button" id="pdf-btn">Generar PDF</button>
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background: rgb(180,58,60);
+    background: linear-gradient(249deg, rgba(180,58,60,1) 0%, rgba(73,25,110,1) 50%, rgba(12,16,20,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+    margin-top: 10%;
+}
+
+button, input, textarea {
+    margin-top: 15px;
+    border-radius: 3px;
+    border: solid;
+    border-color: white;
+    background-color: black;
+    color: white;
+}
